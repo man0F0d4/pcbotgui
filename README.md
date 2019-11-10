@@ -7,10 +7,9 @@ PixelBot GUI is a GUI app designed to help people create simple shapes, such as 
 1. Go to https://github.com/WastefulNick/pcbotgui/releases
 2. Download the newest version of pcbotgui.msi 
 3. Run pcbotgui.msi and follow the steps
-4. You can now search for PixelBot GUI and run it!
 
 ## Compiling with electron
-1. If you do not have git get it installed from https://git-scm.com/downloads
+1. If you do not have git or Node.js(npm), install them from https://git-scm.com/downloads and https://www.npmjs.com/get-npm
 2. Open a command window and clone the project with `git clone https://github.com/WastefulNick/pcbotgui.git`
 3. Run `cd pcbotgui`
 4. Run `npm package-mac` if you're using mac, `npm package-win` for windows and `npm package-linux` for linux.
@@ -19,10 +18,14 @@ PixelBot GUI is a GUI app designed to help people create simple shapes, such as 
 # How to use
 ## Choosing the area
 To choose an area you have to get 4 numbers, the x and y coordinates of the top left pixel, and the x and y coordinates of the bottom right pixel. It's important that the first pixel is in the top left of your chosen area, and that the second pixel is in the bottom right.
+### Example
+#### Top left pixel of the selection -> x1 and y1
 ![alt text](https://i.imgur.com/cQfG5TX.png "x1 and y1 must be the top left pixel")
 
+#### Bottom right pixel of the selection -> x2 and y2
 ![alt text](https://i.imgur.com/OSv6nI8.png "x2 and y2 must be the bottom right pixel")
 
+#### Fill coordinates into program
 ![alt text](https://i.imgur.com/nRrhRXX.png "All completed")
 
 ## Choosing color
