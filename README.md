@@ -20,7 +20,9 @@ PixelBot GUI is a GUI app designed to help people create simple shapes, such as 
 ## Choosing the area
 To choose an area you have to get 4 numbers, the x and y coordinates of the top left pixel, and the x and y coordinates of the bottom right pixel. It's important that the first pixel is in the top left of your chosen area, and that the second pixel is in the bottom right.
 ![alt text](https://i.imgur.com/cQfG5TX.png "x1 and y1 must be the top left pixel")
+
 ![alt text](https://i.imgur.com/OSv6nI8.png "x2 and y2 must be the bottom right pixel")
+
 ![alt text](https://i.imgur.com/nRrhRXX.png "All completed")
 
 ## Choosing color
@@ -29,7 +31,7 @@ In the application you can input the color you want to use, the colors are the n
 
 ## Getting your fingerprint
 1. Go to http://pixelcanvas.io
-2. pPress F12 or right click -> Inspect element
+2. Press F12 or right click -> Inspect element
 3. Open the network tab
 4. In filter input paste 'pixel'
 5. Place a pixel anywhere on the website
