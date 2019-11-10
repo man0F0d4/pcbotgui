@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PixelCanvas Bot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <script src="payload.js"></script>
+    <script src="storage.js"></script>
+    <div class="container">
+      <div id="placing-pixels">
+        <p id="output"></p>
+        <progress value="0" max="10" id="progressBar"></progress>
+      </div>
+      <form onsubmit="run(); rememberFingerprint(); rememberColor(); return false;" id="form">
+        X COORDINATE 1: <input type="text" id="x1" name="x1">
+        Y COORDINATE 1: <input type="text" id="y1" name="y1"><br><br>
+        X COORDINATE 2: <input type="text" id="x2" name="x2">
+        Y COORDINATE 2: <input type="text" id="y2" name="y2"><br><br>
+        COLOR: <input type="text" id="color" name="color">
+        FINGERPRINT: <input type="text" id="fingerprint" name="fingerprint">
+        <input type="submit" class="waves-effect waves-light btn-large" value="Run">
+      </form>
+    </div>
+  </body>
+</html>
