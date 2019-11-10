@@ -26,8 +26,8 @@ To choose an area you have to get 4 numbers, the x and y coordinates of the top 
 ![alt text](https://i.imgur.com/nRrhRXX.png "All completed")
 
 ## Choosing color
-In the application you can input the color you want to use, the colors are the number 0-15, the color 0 is white, 15 is purple and 4 is pink. If you for example want to use yellow count from the start and you get 8, therefore if you want to use yellow you type 8. You can also type 'r' and it will use a random color for every pixel.
-![alt text](https://imgur.com/tN62d85 "The colors are 0-15")
+In the application you can input the color you want to use, the colors are the number 0-15. For example; the color 0 is white, 15 is purple and 4 is pink. If you for example want to use yellow count from the start and you get 8, therefore if you want to use yellow you type 8. You can also type 'r' in the input box and it will use a random color for every pixel.
+![alt text](https://i.imgur.com/tN62d85.png "The colors are 0-15")
 
 ## Getting your fingerprint
 1. Go to http://pixelcanvas.io
