@@ -12,7 +12,7 @@ PixelBot GUI is a GUI app designed to help people create simple shapes, such as 
 1. If you do not have git or Node.js(npm), install them from https://git-scm.com/downloads and https://www.npmjs.com/get-npm
 2. Open a command window and clone the project with `git clone https://github.com/WastefulNick/pcbotgui.git`
 3. Run `cd pcbotgui`
-4. Run `npm package-mac` if you're using mac, `npm package-win` for windows and `npm package-linux` for linux.
+4. Run `npm run package-mac` if you're using mac, `npm run package-win` for windows and `npm run package-linux` for linux.
 5. Navigate to the release-builds folder and run your exe
 
 # How to use
