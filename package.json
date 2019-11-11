@@ -1,6 +1,6 @@
 {
   "name": "pcbotgui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GUI that helps filling in pixels in pixelcanvas.io",
   "main": "main.js",
   "scripts": {
