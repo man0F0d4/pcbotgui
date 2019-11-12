@@ -1,23 +1,31 @@
 {
   "name": "pcbotgui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GUI that helps filling in pixels in pixelcanvas.io",
   "main": "main.js",
+  "author": "Andreas Tvete",
+  "license": "The Unlicense",
   "scripts": {
     "start": "electron .",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds",
     "package-win": "electron-packager . pcbotgui --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"PixelBot GUI\"",
-    "package-linux": "electron-packager . pcbotgui --overwrite --asar=true --platform=linux --arch=x64 --prune=true --out=release-builds"
+    "package-linux": "electron-packager . pcbotgui --overwrite --asar=true --platform=linux --arch=x64 --prune=true --out=release-builds",
+    "mac": "electron-builder -m",
+    "win": "electron-builder -w",
+    "linux": "electron-builder -l"
   },
-  "author": "Andreas Tvete",
   "devDependencies": {
     "electron": "^7.1.1",
-    "electron-packager": "^14.1.0",
-    "electron-wix-msi": "^2.1.1"
+    "electron-builder": "^22.1.0",
+    "electron-packager": "^14.1.0"
   },
   "dependencies": {
     "electron-json-storage": "^4.1.8",
     "os": "^0.1.1",
     "request": "^2.88.0"
+  },
+  "build": {
+    "appId": "com.wastefulnick.pcbotgui",
+    "productName": "PixelBot GUI"
   }
 }
