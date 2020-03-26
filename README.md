@@ -1,3 +1,6 @@
+## In retrospect, this code is shit.
+
+
 # PixelBot GUI
 PixelBot GUI is a GUI app designed to help people create simple shapes, such as flags, in PixelCanvas.io. The bot is not helpful if you want to draw stuff with multiple colors or shapes that aren't squares. It allows you to choose 2 pixels on the canvas, and it will fill the area in with a chosen color, or with a randomly chosen color for each pixel.
 ![alt text](https://i.imgur.com/hBysGm0.png "GUI")
